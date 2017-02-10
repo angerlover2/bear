@@ -17,5 +17,8 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+<p>看到的一家公司的面试题，地址https://github.com/charlzyx/billbear-showmecode </p>
+<P>有使用到</p>
+* vue
+* mint-ui 里的loadmore（上拉加载）
+* 因为请求的数据是本地的xml文件，所以引入了jquery的ajax
