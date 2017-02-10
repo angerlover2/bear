@@ -26,8 +26,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
-
 
 	export default {
 		data() {
@@ -37,7 +35,6 @@ import Vue from 'vue'
 					totalNum:0,
 					allLoaded:false,
 					bottomStatus:'',
-					list: [],
 					wrapperHeight: 0
 				};
 		},
@@ -92,6 +89,7 @@ import Vue from 'vue'
 		},
 		mounted: function() {
 			this.getData();
+			this.wrapperHeight = document.documentElement.clientHeight - this.$refs.wrapper.getBoundingClientRect().top;
 		}
     
 			

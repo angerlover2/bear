@@ -20,7 +20,6 @@ Vue.filter('timeStr',function(str){
 	if (!str) { return ''}
     var time=new Date(str);
     return time.getMonth()+" 月"+time.getDate()+" 日  "+time.getHours()+":"+time.getMinutes()
-//  return str.substring(4,22)
 })
 
 new Vue({
